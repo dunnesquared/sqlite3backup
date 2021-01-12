@@ -115,5 +115,6 @@ class Sql3BackupTests(unittest.TestCase):
                           self.dnedir.joinpath(self.dest_db))
 
 
+# Main -------------------------------------------------------------------------------------------
 if __name__ == "__main__":
     unittest.main()

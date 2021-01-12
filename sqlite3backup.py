@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Python script and module to back-up sqlite3 database using `sqlite3`'s backup function. 
+Python script and module to back up sqlite3 database using `sqlite3`'s backup function. 
 
 To use on a console pass the absolute paths of the database file you want backed up and the file 
 you want it backed up to. If destination file does not exist and the parent directory is good, 
