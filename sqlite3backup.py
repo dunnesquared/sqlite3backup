@@ -2,9 +2,9 @@
 """
 Python script and module to back up sqlite3 database using `sqlite3`'s backup function. 
 
-To use on a console pass the absolute paths of the database file you want backed up and the file 
-you want it backed up to. If destination file does not exist and the parent directory is good, 
-the it will be created on the first run.
+To use on a command line pass the absolute paths of the database file you want backed up and the file 
+you want it backed up to. If the backup file does not exist and its parent 
+directory is valid, then the backup file will be created on the first run.
 
 >> python3 sqlite3backup.py  ~/myproject/src.db ~/myproject/backup.db
 
